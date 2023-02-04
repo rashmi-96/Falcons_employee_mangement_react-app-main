@@ -1,0 +1,595 @@
+.Headers {
+  color: rgb(11, 11, 11);
+  font-display: center;
+  align-items: center;
+  font-weight: 100;
+  font-style: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.card {
+  padding: 5;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  scroll-margin-bottom: 30px;
+
+}
+.backbtn {
+  padding: 20%;
+  margin-right: 20px;
+  color: rgb(14, 113, 158);
+  margin-left: 10px;
+}
+.headertopbar {
+  background-color: rgb(14, 113, 158);
+  width: 100%;
+}
+.cardHeader {
+  background: linear-gradient(to right, rgb(14, 113, 158) 0%, #ffffff 100%);
+  color: white;
+  height: auto;
+  font-size: small;
+  text-align: center;
+}
+
+/* Employee details css modal */
+
+.tabheader {
+  color: black;
+}
+/* Employee details css modal */
+
+.ModalHeader {
+  background: linear-gradient(to right, rgb(14, 113, 158) 0%, #ffffff 100%);
+  color: white;
+  height: auto;
+  font-size: small;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.form-control {
+  margin-right: 30px;
+  align-items: center;
+  display: block;
+  width: 100px;
+}
+.form-select {
+  margin-right: 30px;
+  align-items: center;
+  display: block;
+}
+
+.submitbutton {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #279add;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.submitbutton:hover {
+  background-color: #1979d3;
+}
+
+.submitbutton:active {
+  background-color: #064164;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media (max-width: 600px) {
+  .form-control {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  .inputform {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.deleteB {
+  display: inline-block;
+  padding: 8px 11px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #dd4b27;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.deleteB:hover {
+  background-color: #1979d3;
+}
+
+.deleteB:active {
+  background-color: #064164;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.peerTable {
+  width: auto;
+}
+.UpdateB {
+  display: inline-block;
+  padding: 8px 11px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #27a3dd;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.UpdateB:hover {
+  background-color: #1979d3;
+}
+
+.UpdateB:active {
+  background-color: #064164;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.backicon {
+  margin-left: -20px;
+  margin-right: 7px;
+}
+.addicon {
+  margin-right: 7px;
+  margin-left: -9px;
+}
+.screen {
+}
+.cardservices {
+  padding: 5;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 7%;
+  margin-bottom: 70px;
+  scroll-margin-bottom: 30px;
+  height: max-content;
+  background-color: "rgba(255, 255, 255, .15)";
+  box-shadow: "inset 0 0 2000px rgba(255, 255, 255, .8)";
+
+
+}
+
+@media (max-width: 600px) {
+  .cardservices {
+    height: "1400px";
+    padding: 5;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 110px;
+    margin-bottom: 100px;
+    scroll-margin-bottom: 30px;
+    height: max-content;
+
+
+  }
+}
+.containerservice{
+  width: 92%;
+  margin: 0px auto;
+  height: auto;
+}
+
+.tab-menu {
+  width: 70%;
+  border-color: black;
+}
+.tab-content {
+  margin: 20px;
+}
+
+.tab-menu :active {
+  color: white;
+  border-color: #0e0e0e;
+  background-image: linear-gradient(to right, #26bcea 50%, #1389d8 50%);
+  font-weight: 600;
+}
+.tab-menu :focus {
+  background-image: linear-gradient(to right, #26bcea 0%, #1389d8 100%);
+  color: white;
+  font-weight: 500;
+}
+
+.tab-button {
+  height: 45px;
+  width: 200px;
+  background-color: #dbe5e9;
+  color: rgb(19, 18, 18);
+  border: 2px solid rgb(246, 247, 248);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: -80px;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 3px 5px;
+}
+
+
+.tabcard {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 500px;
+  margin-top: 6px;
+  border-radius: 10px;
+}
+/* tab css */
+/*side panel*/
+/* The sidepanel menu */
+.sidepanel {
+  height: 260px; /* Specify a height */
+  width: 150px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 60px;
+  right: 0;
+  background-color: rgb(253, 251, 251); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s;
+  display: block;
+  border: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(85, 211, 239, 0),
+      rgba(29, 127, 218, 0)
+    ),
+    linear-gradient(101deg, #62bcd2, #1c82d0);
+  background-origin: border-box;
+  box-shadow: 0 0 6px 0 rgba(88, 164, 215, 0.5);
+  background-clip: content-box, border-box; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #0e0e0e;
+  display: block;
+  /* background-color: rgb(255, 253, 253); */
+  border-color: black;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  font-size: 36px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #26bcea 0%, #1389d8 100%);
+  color: white;
+  float: right;
+  left: 0;
+  padding: 10px 15px;
+  align-items: right;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  position: fixed sticky;
+  margin-top: 10;
+  margin-right: -1600px;
+
+  /* position:relative;   */
+  position: relative;
+}
+
+.openbtn:hover {
+  background-image: linear-gradient(to right, #26bcea 50%, #1389d8 50%);
+}
+
+/*side panel close*/
+
+  /* login Card*/
+.logincard{
+
+margin-top: 10%;
+width: 600px;
+margin-left:35%;
+border-radius: 5;
+
+}
+.lgninputgroup{
+width: 500px;
+margin-top: 10px;
+margin-left: 10%;
+}
+.logintxt{
+  margin-bottom: 60px;
+  color: #fbfbfc;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 27px;
+padding: 10px;
+  background-image: linear-gradient(to right, #26bcea 0%, #1389d8 100%);
+}
+.loginbtn{
+  font-size: 12px;
+  margin-left: 40%;
+  width:20%;
+  height: 40px;
+  margin-top:20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #1389d8;
+  border: none;
+}
+.loginbtn :hover{
+  background-color: #133950;
+  transform: translateY(4px);
+}
+
+
+@media (max-width: 600px) {
+  .logincard{
+    margin-top: 20%;
+    width:90%;
+    margin-left:5%;
+    margin-right: 5%;
+    border-radius: 5;
+
+  }
+  .lgninputgroup{
+width: 110%;
+font-size: 12px;
+font-style: italic;
+margin-bottom: 5px;
+margin-left: -5px;
+  }
+  .logintxt{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:90px;
+    font-style: bold;
+    font-size: 15px;
+    color: white;
+  
+  }
+  .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+}
+    /* login Card*/
+
+
+    /*leave Request*/
+.leaveReqBadges{
+ color: #0e0e0e;
+ background-color: #1e98e9;
+ text-align: center;
+ margin: 30px;
+ height: 200px;
+ width: 150px;
+ border-radius: 10px;
+ font-size: 34px;
+
+}
+
+.allbagedalign{
+  margin-left: 20%;
+}
+.badgeleave{
+margin-top: 25%;
+}
+
+@media (max-width: 600px) {
+  .leaveReqBadges{
+    color: #0e0e0e;
+    background-color: #1e98e9;
+    text-align: center;
+    margin: 5px;
+    height: 80px;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 16px; 
+    font-style: bold;
+    
+   }
+   .allbagedalign{
+    margin-left: 5%;
+  }
+  .mobileviewh2{
+    font-size: 9px;
+  }
+   
+}
+
+        /*leave Request*/
+
+        .done{
+          background-color: #133950;
+        }
+
+
+        /*modal*/
+
+        .modalhead {
+          background-image: linear-gradient(to right, #3eadcf 0%, #abe9cd 100%);
+          color: white;
+          height: auto;
+          font-size: small;
+          text-align: center;
+          margin-bottom: 50px;
+        }
+
+@media (max-width: 600px) {
+  .formresponsive {
+    background: -webkit-linear-gradient(#eee, rgb(31, 142, 170));
+    display: block;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+
+  .btnupdate{
+    padding: px;
+    margin: 1px;
+    margin-right: 5px;
+    color: white;
+    box-shadow: 0 5px #666;
+   background-color: #3988e2;
+   border-radius: 7px;
+   height: 30px;
+   font-size: 8px;
+  }
+  .btndelete{
+    padding: 10px;
+    margin: 1px;
+    margin-right: 5px;
+    color: white;
+    box-shadow: 0 5px #666;
+   background-color: #861414;
+   border-radius: 7px;
+   height: 30px;
+   font-size: 8px;
+  }
+  .cardmobile{
+    margin-left: 2%;
+    margin-right: 2%;
+  
+  }
+}
+
+                /*modal*/
+  
+.loginbtn{
+  padding: 5px 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #269ff0;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 40px;
+
+}
+
+.loginbtn:hover {background-color: #115baf}
+.loginbtn :active {
+  background-color: #04417a;
+  box-shadow: 0 5px #666;
+  transform: translateY(6px);
+}
+/* 
+.loginbackground{
+background-image: url(./../../assets/bagground.jpg);
+background-size: cover;
+} */
+
+.welcometxt{
+    margin-bottom: 70px;
+  color: #fbfbfc;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 27px;
+padding: 10px;
+
+}
+.btnupdate{
+  padding: 10px;
+  margin: 1px;
+  margin-right: 5px;
+  color: white;
+  box-shadow: 0 5px #666;
+ background-color: #3988e2;
+ border-radius: 7px;
+}
+.btndelete{
+  padding: 10px;
+  margin: 1px;
+  margin-right: 5px;
+  color: white;
+  box-shadow: 0 5px #666;
+ background-color: #861414;
+ border-radius: 7px;
+}
+.logincard{
+
+
+}
+
+@media (min-width: 600px)
+{
+.css-r6ewbb-MuiToolbar-root {
+    min-height: 91px;
+}
+
+}
+.css-r6ewbb-MuiToolbar-root {
+  min-height: 200px;
+}
+
+
+/* 
+.cardservices {
+  padding: 5;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  scroll-margin-bottom: 30px;
+  height: max-content;
+  background-Color: "rgba(255, 255, 255, .15)";
+  box-shadow: "inset 0 0 2000px rgba(255, 255, 255, .8)";
+
+
+} */
+
+.cardtopview{
+
+}

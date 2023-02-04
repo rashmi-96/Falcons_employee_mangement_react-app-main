@@ -1,0 +1,245 @@
+.home {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.home__bg {
+    background-image: url(../assets/homepage.jpeg);
+    background-color: #b34e4e;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+
+li.nav__items {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.home__content {
+    padding: 125px 0px;
+}
+
+h1.home__text {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(198, 201, 216, .75) !important;
+}
+
+h2.home__text {
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+}
+
+h3.home__text {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+    line-height: 40px;
+}
+
+h4.home__text {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.header {
+    transition: .4s all ease;
+}
+
+.header.active {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+}
+
+.toggle__menu {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    z-index: 3;
+    width: 100%;
+}
+
+ul.sidebar.d__flex {
+    flex-wrap: wrap;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+    background: #010101;
+    justify-content: center;
+    width: 300px;
+    top: 0%;
+    flex-direction: column;
+}
+
+li.sideNavbar {
+    padding: 25px 30px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .navigation.pxy__30 {
+        display: none;
+    }
+
+    h2.white.pz__10 {
+        font-size: 50px !important;
+    }
+
+    svg.bi.bi-justify.white.pointer {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    h2.home__text.pz__10 {
+        font-size: 32px;
+    }
+
+    h3.sweet.pz__10 {
+        font-size: 40px;
+    }
+
+    h1.home__text {
+        font-size: 14px;
+    }
+
+    h4.home__text {
+        font-size: 45px;
+    }
+}
+
+
+/* preloader wave */
+#tsparticles {
+    position: absolute;
+    width: 100%;
+
+    z-index: -1;
+}
+
+
+/* footer */
+/*service begin */ 
+h1.heading {
+    font-size: 60px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p.heading.p__color {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.service__box {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #191919;
+    padding: 55px;
+    transition: .4s ease;
+}
+
+.service__box:hover {
+    transform: translateY(5px);
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+}
+
+.service__box:hover .icon {
+    color: #fff;
+}
+
+.service__box:hover p.service__text.p__color {
+    color: #fff !important;
+}
+
+.icon {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #f9004d;
+}
+
+p.service__text.p__color {
+    margin-bottom: 0;
+}
+
+h1.service__text {
+    font-size: 19px;
+    font-family: Poppins, sans-serif;
+    padding: 10px 0px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+    .service__box {
+        padding: 32px;
+    }
+}
+/*services end*/
+
+.tab-menu {
+    width: 70%;
+    border-color: black;
+  }
+  .tab-content {
+    margin: 20px;
+
+  }
+  
+  .tab-menu :active {
+    color: white;
+    border-color: #0e0e0e;
+    background-image: linear-gradient(to right, #26bcea 50%, #1389d8 50%);
+  }
+  .tab-menu :focus {
+    background-image: linear-gradient(to right, #26bcea 0%, #1389d8 100%);
+
+    color: white;
+  }
+  
+  .tab-button {
+    height: 45px;
+    width: 300px;
+    background-color: #cfd4d6;
+    color: black;
+    border: 2px solid rgb(4, 56, 133);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    margin-left: 20px;
+    margin-bottom: -30px;
+  }
+  
+  .tabcard {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    margin-top: 6px;
+    border-radius: 10px;
+  }
+  /* tab css */
+  
